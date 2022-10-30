@@ -1,7 +1,9 @@
+import logo from "../white-logo.png";
+
 function Navbar() {
   return (
     <nav className="navbar">
-      <img className="logo" src="../white-logo.png" alt="logo" />
+      <img className="logo" src={logo} alt="logo" />
 
       <ul className="nav-items">
         <li>
